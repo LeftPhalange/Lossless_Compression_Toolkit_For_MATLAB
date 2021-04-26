@@ -11,9 +11,7 @@ Each algorithm is stored in their own class, and their accompanying encode and d
 [final_tree, symbol_map, encoded] = huffman.encode("This is a test");
 decoded_string = huffman.decode(encoded, final_tree)
 
-% For RLE or LZW, using LZW as an example...
-encoded_string = lzw.encode("TOBEORNOTTOBEORTOBENOT");
-decoded_string = lzw.decode(encoded_string)
+% For RLE or 
 ```
 The process is the same for the other algorithms supported in the toolkit. Auxiliary functions and classes (i.e. in Huffman coding) were made or built from other existing solutions to aid the encoding and decoding process. Be sure every helper class file is with the principal class file.
 

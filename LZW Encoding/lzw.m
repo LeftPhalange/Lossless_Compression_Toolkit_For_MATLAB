@@ -33,7 +33,6 @@ classdef lzw
             end
             if (w ~= "")
                 listResult.add(dictionary(w));
-                disp (dictionary(w));
             end
             
             encoded = listResult;
