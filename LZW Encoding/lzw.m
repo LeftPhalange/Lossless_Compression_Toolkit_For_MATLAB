@@ -58,7 +58,7 @@ classdef lzw
                 if isKey(dictionary, k + "")
                     entry = "" + dictionary("" + k);
                 elseif k == dictSize
-                    entry = w + w(1);
+                    entry = w + w{1}(1);
                 end
                 
                 decoded = "" + decoded + entry;
